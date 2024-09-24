@@ -1,0 +1,10 @@
+. ANGKA SEGITIGA
+START
+    n = 7
+    FOR i FROM n DOWNTO 1 DO
+        FOR j FROM 1 TO i DO
+            PRINT j WITH SPACE
+        END FOR
+        PRINT NEWLINE
+    END FOR
+END
